@@ -12,7 +12,13 @@ package hearts_ryanc;
 public abstract class Card 
 {
     //default modifier for child classes
+    Card(Value value, Suit suit) {}
+
+    boolean isHearts() {}
+
+    boolean isqueenSpades() {}
     
+}
     /**
      * Students should implement this method for their specific children classes 
      * @return a String representation of a card. Could be an UNO card, a regular playing card etc.

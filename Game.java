@@ -16,11 +16,6 @@ public abstract class Game
     private final String gameName;//the title of the game
     private ArrayList <Player> players;// the players of the game
     
-    public playerNames[0] = p1;
-    public playerNames[1] = p2;
-    public playerNames[2] = p3;
-    public playerNames[3] = p4;
-    
     public Game(String Hearts)
     {
         gameName = Hearts;

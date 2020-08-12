@@ -11,4 +11,7 @@ package hearts_ryanc;
  */
 public class Suit {
     
+  public char hearts, clubs, spades, diamonds;
+    
+    }
 }

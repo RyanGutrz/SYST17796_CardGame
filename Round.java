@@ -11,4 +11,7 @@ package hearts_ryanc;
  */
 public class Round {
     
+    private Round roundScore = new Round();
+    private Trick currentTrick = new Trick();
+    private Hand[] playerHand = new Hand[]; 
 }
